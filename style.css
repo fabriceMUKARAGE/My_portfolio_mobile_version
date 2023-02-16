@@ -6,7 +6,7 @@ body {
   margin: 0;
   margin-top: 2%;
   border: none;
-  background: white;
+  background: #f7f7f9;
   font-family: "Poppins", sans-serif;
 }
 
@@ -18,7 +18,7 @@ body {
 header {
   display: flex;
   padding-left: 5%;
-  padding-right: 5%;git init
+  padding-right: 5%;
   background-color: #fff;
   flex-direction: row;
   justify-content: space-between;
@@ -71,7 +71,7 @@ header {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  margin-top: 0;
+  margin-top: 2%;
   color: #7f8cff;
   margin-left: 6%;
 }
@@ -120,4 +120,94 @@ header {
 .popup-menu-items li a {
   text-decoration: none;
   color: white;
+}
+
+.pagecontainer {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 6%;
+}
+
+.pagecontainer h1 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.pagecontainer h3 {
+  color: #344563;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+span {
+  width: 88px;
+  height: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  padding-left: 10%;
+}
+
+.pagecontainer p {
+  width: 295px;
+  height: 76px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.pagecontainer .box {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px;
+  background: #ebebff;
+  color: #6070ff;
+  border-radius: 8px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.button {
+  justify-content: flex-end;
+  font-weight: 500;
+  border-radius: 8px;
+  border-color: #396df2;
+  background-color: white;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  padding: 8px 16px;
+  letter-spacing: 0.03em;
+}
+
+section {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: white;
+  box-sizing: border-box;
+  border-radius: 16px;
 }
